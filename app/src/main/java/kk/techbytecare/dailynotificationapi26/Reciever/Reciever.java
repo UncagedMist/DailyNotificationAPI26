@@ -53,7 +53,7 @@ public class Reciever extends BroadcastReceiver {
     }
 
     private void sendNotification(Context context) {
-        String title = "Notify App";
+        String title = "Alarm Notify App";
         String message = "Just to test";
 
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
